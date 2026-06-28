@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric David Rodriguez Flores - Software Engineer</title>
+    
+    <!-- ============================================================
+    META TAGS PARA SEO Y REDES SOCIALES
+    ============================================================ -->
+    <meta name="description" content="Curriculum Vitae de Eric David Rodriguez Flores, Software Engineer especializado en desarrollo web full-stack.">
+    <meta name="keywords" content="Software Engineer, Desarrollador Web, React, JavaScript, TypeScript, CV">
+    <meta name="author" content="Eric David Rodriguez Flores">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Eric David Rodriguez Flores - Software Engineer">
+    <meta property="og:description" content="Curriculum Vitae de Eric David Rodriguez Flores, Software Engineer.">
+    <meta property="og:image" content="profile.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Eric David Rodriguez Flores - Software Engineer">
+    <meta name="twitter:description" content="Curriculum Vitae de Eric David Rodriguez Flores, Software Engineer.">
+    <meta name="twitter:image" content="profile.jpg">
+    
+    <!-- ============================================================
+    FUENTES E ICONOS (CDN)
+    ============================================================ -->
+    <!-- Font Awesome 6 (Iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Google Fonts (Opcional - Mejora tipografía) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    
+    <!-- ============================================================
+    ESTILOS LOCALES
+    ============================================================ -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- ============================================================
+    FAVICON (Opcional - Generar en https://favicon.io)
+    ============================================================ -->
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+</head>
+<body>
+
+    <!-- ============================================================
+    CONTENEDOR PRINCIPAL
+    Todo el contenido será renderizado por JavaScript
+    ============================================================ -->
+    <div id="app"></div>
+
+    <!-- ============================================================
+    SCRIPTS
+    ============================================================ -->
+    <script src="script.js"></script>
+
+    <!-- ============================================================
+    SCRIPTS ADICIONALES (Opcionales)
+    ============================================================ -->
+    <script>
+        /**
+         * Manejo de errores de imágenes (fallback)
+         * Si una imagen no carga, muestra un placeholder
+         */
+        document.addEventListener('DOMContentLoaded', function() {
+            // Escuchar errores de imágenes en toda la página
+            document.addEventListener('error', function(e) {
+                const target = e.target;
+                if (target.tagName === 'IMG') {
+                    // Si la imagen es de perfil
+                    if (target.id === 'profile-img') {
+                        target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"%3E%3Crect width="200" height="200" fill="%231e2a3a"/%3E%3Ctext x="50%25" y="50%25" font-size="60" text-anchor="middle" dy=".3em" fill="%235b8cbf"%3E👤%3C/text%3E%3C/svg%3E';
+                        target.alt = 'Foto de perfil no disponible';
+                    } else {
+                        // Para proyectos, mostrar placeholder
+                        const parent = target.closest('.project-image');
+                        if (parent) {
+                            const overlay = parent.querySelector('.project-overlay');
+                            if (overlay) {
+                                // Ocultar overlay si no hay imagen
+                                overlay.style.display = 'none';
+                            }
+                            // Cambiar fondo a un color con texto
+                            parent.style.backgroundColor = '#e9edf2';
+                            parent.style.display = 'flex';
+                            parent.style.alignItems = 'center';
+                            parent.style.justifyContent = 'center';
+                            parent.innerHTML = `
+                                <div style="color: #8899b0; font-size: 14px; text-align: center;">
+                                    <i class="fas fa-image" style="font-size: 32px; display: block; margin-bottom: 8px;"></i>
+                                    Imagen no disponible
+                                </div>
+                            `;
+                        }
+                    }
+                }
+            }, true);
+        });
+    </script>
+
+    <!-- ============================================================
+    SCRIPT PARA MODO OSCURO / TEMA GAMER (Opcional)
+    ============================================================ -->
+    <script>
+        /**
+         * Cambiar entre tema moderno y tema gamer
+         * Descomentar para activar
+         */
+        /*
+        function toggleTheme() {
+            const root = document.documentElement;
+            const currentTheme = root.classList.contains('gamer-theme') ? 'modern' : 'gamer';
+            
+            if (currentTheme === 'gamer') {
+                root.classList.remove('gamer-theme');
+                localStorage.setItem('theme', 'modern');
+            } else {
+                root.classList.add('gamer-theme');
+                localStorage.setItem('theme', 'gamer');
+            }
+        }
+        
+        // Cargar tema guardado
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'gamer') {
+                document.documentElement.classList.add('gamer-theme');
+            }
+        });
+        
+        // Agregar botón de cambio de tema (ejemplo)
+        // document.querySelector('.theme-toggle')?.addEventListener('click', toggleTheme);
+        */
+    </script>
+
+</body>
+</html>
