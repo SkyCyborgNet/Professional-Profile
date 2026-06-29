@@ -149,35 +149,35 @@ skills: [
     projects: [
         {
             title: "Dynamic Engineering App",
-            description: "Plataforma de ventas con React y Stripe. Incluye carrito de compras, autenticación y pagos en tiempo real.",
+            description: "The Dynamic Engineering App is a specialized structural dynamics and earthquake engineering tool designed to bridge the gap between raw seismic data and structural analysis software. It automates the processing of ground motion records (accelerograms), converting raw acceleration time-series data into equivalent dynamic forces and generating compliance-ready response spectra for advanced structural design..",
             image: "project1.jpg",
             technologies: ["Python", "HTML", "CC", "JS"],
-            link: "https://github.com/tu-usuario/ecommerce"
+            link: "https://github.com/tu-usuario/Dynamic Engineering App"
         },
         {
             title: "Wind Loads Design CFE App",
-            description: "Panel de control con gráficos interactivos y datos en tiempo real usando WebSockets.",
+            description: "The Wind Loads Design CFE App is an engineering software solution designed to automate the calculation of wind design forces on buildings and structures in strict compliance with the CFE Manual (Manual de Diseño de Obras Civiles - Diseño por Viento). The application streamlines the complex, multi-step algebraic pipeline required to determine velocity pressures, shape coefficients, and final design wind loads, eliminating manual lookup errors from code charts and maps..",
             image: "project2.jpg",
             technologies: ["Python", "HTML", "CC", "JS"],
             link: "https://github.com/tu-usuario/dashboard"
         },
         {
             title: "Data Science for MovieLens Project",
-            description: "Mi sitio web personal con proyectos, blog y sistema de contacto.",
+            description: "The MovieLens Project is an end-to-end Data Science and Big Data infrastructure project designed to ingest, process, and analyze massive datasets of user-generated movie ratings and metadata. The project implements scalable machine learning algorithms to build a personalized recommendation engine while providing deep business intelligence insights into user behavior, cinematic trends, and demographic preferences.",
             image: "project3.jpg",
             technologies: ["Python", "R studio", "Apache"],
             link: "https://github.com/tu-usuario/portfolio"
         },
         {
-            title: "Dashboard-Sells",
-            description: "Backend escalable con Node.js, Express y MongoDB. Incluye autenticación JWT y documentación Swagger.",
+            title: "Google Fusion - Dashboard-Sells",
+            description: "The Google Fusion: Dashboard-Sells project is an enterprise-grade business intelligence (BI) platform that automates the ingestion, transformation, and visualization of transactional sales data. By leveraging cloud-native data integration pipelines, the system consolidates fragmented sales data from multiple channels (CRMs, e-commerce platforms, and ERPs) into a centralized data warehouse, generating real-time, interactive dashboards to track revenue performance, representative quotas, and funnel conversion rates.",
             image: "project4.jpg",
             technologies: ["Google Fusion", "Excel", "Python"],
             link: "https://github.com/tu-usuario/api-rest"
         },
         {
             title: "Wine Quality Prediction",
-            description: "Diseño moderno con animaciones y scroll suave optimizado para conversión.",
+            description: "It focuses on applying advanced statistical learning and machine learning techniques to predict the quality of wine based on its chemical profile. Utilizing datasets containing physicochemical properties of red and white variants (such as acidity, residual sugar, and alcohol content), the project builds, evaluates, and compares multiple predictive models to classify wine quality or predict it as a continuous score.",
             image: "project5.jpg",
             technologies: ["Python", "R studio", "Apache"],
             link: "https://github.com/tu-usuario/landing"
@@ -196,11 +196,11 @@ skills: [
         },
         {
             year: "2020-2022",
-            title: "Diploma in Computer Technology",
+            title: "Master of Business Administration",
             institution: "Uniersidad Tecnologica de Latinoamerica (UTEL)",
             location: "Mexico city, Mexico",
             duration: "2 YEARS",
-            description: `Et ac sit placerat eget interdum gravida eget diam. Libero placerat quis non in volutpat amet a. Et ac sit placerat eget interdum gravida eget diam. Libero placera quis non in volutpat amet a.`
+            description: `Master of Business Administration.`
         },
         {
             year: "2022-2026",
