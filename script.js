@@ -24,10 +24,10 @@ I am looking for a team where I can keep learning every day, contribute my curre
 
     // -------- CONTACTO (SIDEBAR) --------
     contact: [
-        { icon: "📍", label: "Address", value: "Edo Méx., México" },
-        { icon: "📧", label: "Email", value: "fler.rdz87@gmail.com", link: "mailto:ivan.ivanov@gmail.com" },
-        { icon: "🐙", label: "GitHub", value: "https://github.com/skycyborgnet", link: "https://github.com/skycyborgnet" },
-        { icon: "🔗", label: "LinkedIn", value: "https://linkedin.com/in/skycyborgnet", link: "https://linkedin.com/in/skycyborgnet" },
+        { icon: "📍", label: "Address", value: "Coacalco de Berriozabal, Estado Méx., México" },
+        { icon: "📧", label: "Email", value: "fler.rdz87@gmail.com", link: "mailto:fler.rdz87@gmail.com" },
+        { icon: "🐙", label: "GitHub", value: "https://github.com/sky-cyborgnet", link: "https://github.com/sky-cyborgnet" },
+        { icon: "🔗", label: "LinkedIn", value: "https://www.linkedin.com/in/sky-cyborg-net/", link: "https://www.linkedin.com/in/sky-cyborg-net/" },
         { icon: "📞", label: "Phone", value: "+52 8124 06 22 92" }
     ],
 
@@ -201,7 +201,7 @@ certificates: [
         },
         {
             year: "2020-2022",
-            title: "Software / Civil Engineer",
+            title: "Data Analyst",
             company: "Constellation Brands (Worley)",
             location: "Coahuila, México",
             duration: "2 YEARS",
@@ -218,7 +218,7 @@ certificates: [
         },
         {
             year: "2015-2019",
-            title: "Civil Structural Engineer",
+            title: "Structural Engineer",
             company: "VITRO",
             location: "Nuevo León, México",
             duration: "4 YEARS 4 MONTHS",
@@ -300,7 +300,7 @@ certificates: [
         {
             year: "2022-2026",
             title: "Software Engineer",
-            institution: "ABCD Example School",
+            institution: "Universidad Ciudadana de Nuevo Leon (UCNL)",
             location: "Nuevo Leon, Mexico",
             duration: "4 YEARS",
             description: `Software Engineering.`
@@ -309,8 +309,8 @@ certificates: [
 
     // -------- REDES SOCIALES (FOOTER) --------
     social: [
-        { platform: "GitHub", url: "https://github.com/skycyborgnet", icon: "fab fa-github" },
         { platform: "LinkedIn", url: "https://linkedin.com/in/sky-cyborg-net", icon: "fab fa-linkedin" },
+        { platform: "GitHub", url: "https://github.com/sky-cyborg-net", icon: "fab fa-github" },
         { platform: "Twitter", url: "https://twitter.com/skycyborgnet", icon: "fab fa-twitter" },
         { platform: "YouTube", url: "https://youtube.com/skycyborgnet", icon: "fab fa-youtube" }
     ]

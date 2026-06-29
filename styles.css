@@ -184,6 +184,11 @@ body {
     margin-bottom: 8px;
 }
 
+/* Ocultar números pero mantener el espacio */
+.skill-percent {
+    visibility: hidden !important;
+}
+	
 .skill-info {
     display: flex;
     justify-content: space-between;
