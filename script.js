@@ -72,19 +72,114 @@ skills: [
         { name: "English", level: 4, label: "Fluent" }
     ],
 
-    // -------- CERTIFICADOS --------
-    certificates: [
-        { issuer: "Harvardx", name: "Data Science" },
-        { issuer: "Harvardx", name: "Python for Data Science" },
-        { issuer: "DeepLearning", name: "Data Engineering" },
-        { issuer: "IBM", name: "Machine Learning" },
-        { issuer: "IBM", name: "Data Science" },
-        { issuer: "IBM", name: "Python for Data Engineering" },
-        { issuer: "AWS", name: "AWS Cloud Support" },
-        { issuer: "AWS", name: "Machine Learning" },
-        { issuer: "IBM", name: "Data Analitycs" },
-        { issuer: "Google", name: "Business Inteligence" },
-        { issuer: "Google", name: "Machine Learning" }
+// -------- CERTIFICADOS ORGANIZADOS POR ÁREA --------
+certificates: [
+    // ============================================
+    // 1. INTELIGENCIA ARTIFICIAL & MACHINE LEARNING
+    // ============================================
+    { issuer: "Harvardx", name: "Data Science" },
+    { issuer: "Harvardx", name: "Python for Data Science" },
+    { issuer: "DeepLearning.AI", name: "Data Engineering" },
+    { issuer: "IBM", name: "Machine Learning" },
+    { issuer: "IBM", name: "Data Science" },
+    { issuer: "AWS", name: "Machine Learning" },
+    { issuer: "Google", name: "Machine Learning" },
+    { issuer: "DeepLearning.AI", name: "PyTorch Deep Learning" },
+    { issuer: "IBM", name: "AI Engineering" },
+    { issuer: "AWS", name: "Generative AI" },
+    { issuer: "IBM", name: "Generative AI Elevate Your Data Science Career" },
+    { issuer: "University of Colorado", name: "Machine Learning Theory and Hands-on Practice with Python" },
+    { issuer: "University of Alberta", name: "Applied Machine Learning" },
+    { issuer: "IBM", name: "AI and Data Engineering" },
+    { issuer: "IBM", name: "Deep Learning with PyTorch" },
+    { issuer: "IBM", name: "AI Mastery for Professionals" },
+    { issuer: "Microsoft", name: "AI & ML Engineering" },
+    { issuer: "NVIDIA", name: "Generative AI" },
+    { issuer: "Snowflake", name: "Generative AI" },
+    { issuer: "DeepLearning.AI", name: "AI Tooling" },
+    { issuer: "DeepLearning.AI", name: "Generative AI for Mobile" },
+    { issuer: "DeepLearning.AI", name: "Generative AI Engineering" },
+    { issuer: "DeepLearning.AI", name: "TensorFlow Developer" },
+    { issuer: "DeepLearning.AI", name: "Computer Vision" },
+    { issuer: "DeepLearning.AI", name: "Generative AI Software Engineering" },
+    { issuer: "DeepLearning.AI", name: "Generative AI Leadership & Strategy" },
+    { issuer: "DeepLearning.AI", name: "Harnessing LLMs" },
+    { issuer: "IBM", name: "Machine Learning with Python" },
+    { issuer: "IBM", name: "RAG and Agentic AI" },
+    { issuer: "AWS", name: "Generative AI and AI" },
+    { issuer: "DeepLearning.AI", name: "Data Analytics" },
+
+    // ============================================
+    // 2. DATA ENGINEERING & ANALYTICS
+    // ============================================
+    { issuer: "IBM", name: "Python for Data Engineering" },
+    { issuer: "IBM", name: "Data Analytics" },
+    { issuer: "IBM", name: "Data Pipeline Engineering & Analytics" },
+    { issuer: "IBM", name: "Data Engineer" },
+    { issuer: "IBM", name: "Data Architecture" },
+    { issuer: "IBM", name: "Data Visualization with Python" },
+    { issuer: "IBM", name: "Data Analysis with Python" },
+    { issuer: "IBM", name: "Applied Data Science Capstone" },
+    { issuer: "IBM", name: "Data Science Methodology" },
+    { issuer: "IBM", name: "Data Analyst" },
+    { issuer: "IBM", name: "Databases and SQL for Data Science with Python" },
+    { issuer: "IBM", name: "Relational Database" },
+    { issuer: "Google", name: "Data Analytics" },
+    { issuer: "Google", name: "Business Intelligence" },
+    { issuer: "Google", name: "Business Intelligence Certificate" },
+    { issuer: "AWS", name: "Cloud Support" },
+    { issuer: "Snowflake", name: "Data Engineering" },
+    { issuer: "Microsoft", name: "Power BI Data Analyst" },
+    { issuer: "Microsoft", name: "Data Analysis with SQL Excel & Power BI" },
+    { issuer: "Microsoft", name: "Power BI Productivity" },
+    { issuer: "Johns Hopkins University", name: "R Programming for Data" },
+    { issuer: "UiPath", name: "RPA" },
+
+    // ============================================
+    // 3. FULL-STACK & SOFTWARE DEVELOPMENT
+    // ============================================
+    { issuer: "IBM", name: "iOS and Android" },
+    { issuer: "IBM", name: "Full Stack Software" },
+    { issuer: "IBM", name: "Back-End" },
+    { issuer: "IBM", name: "JavaScript Backend" },
+    { issuer: "IBM", name: "DevOps and Software" },
+    { issuer: "IBM", name: "Applied DevOps" },
+    { issuer: "Meta", name: "React" },
+    { issuer: "Instituto Tecnológico de Aeronáutica", name: "Mastering ROS 2 for Robotics Programming" },
+    { issuer: "Google", name: "IT Support" },
+    { issuer: "AWS", name: "Cloud Solutions" },
+    { issuer: "AWS", name: "Cloud Technology Consultant" },
+
+    // ============================================
+    // 4. CYBERSECURITY & ETHICAL HACKING
+    // ============================================
+    { issuer: "ISC2", name: "Systems Security" },
+    { issuer: "ISC2", name: "Certified in Cybersecurity" },
+    { issuer: "EC-Council", name: "Digital Forensics Essentials (DFE)" },
+    { issuer: "EC-Council", name: "Practical Pentesting" },
+    { issuer: "EC-Council", name: "Offensive Hacking Unfolded" },
+    { issuer: "EC-Council", name: "Hands-on Hacking" },
+    { issuer: "EC-Council", name: "Hacking Bootcamp" },
+    { issuer: "EC-Council", name: "Certified Ethical Hacker" },
+    { issuer: "EC-Council", name: "Cybersecurity Attack" },
+    { issuer: "EC-Council", name: "Network Defense Essentials (NDE)" },
+    { issuer: "EC-Council", name: "Kali Linux Ethical Hacking" },
+    { issuer: "CompTIA", name: "Cybersecurity Analyst (CySA+) CS0-003" },
+    { issuer: "CompTIA", name: "PenTest+" },
+    { issuer: "Cloud Security Alliance", name: "Certified Cloud Security" },
+    { issuer: "IBM", name: "Python Hacking Apply, Implement & Analyze" },
+
+    // ============================================
+    // 5. BUSINESS & MANAGEMENT
+    // ============================================
+    { issuer: "PMI", name: "PMP Certification" },
+    { issuer: "SAP", name: "Business Analyst" },
+
+    // ============================================
+    // 6. LANGUAGES & OTHER SKILLS
+    // ============================================
+    { issuer: "HSK", name: "Chinese for HSK 1" },
+    { issuer: "Microsoft", name: "Azure Data Science" }
     ],
 
     // -------- EXPERIENCIA LABORAL --------
@@ -208,7 +303,7 @@ skills: [
             institution: "ABCD Example School",
             location: "Nuevo Leon, Mexico",
             duration: "4 YEARS",
-            description: `Software Engineer.`
+            description: `Software Engineering.`
         }
     ],
 
