@@ -43,7 +43,7 @@
     --font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     /* Espaciados */
-    --sidebar-width: 320px;
+    --sidebar-width: 260px;
     --sidebar-padding: 40px 30px;
     --main-padding: 50px 50px 40px 45px;
     
@@ -244,14 +244,19 @@ body {
     margin-bottom: 4px;
 }
 
-.lang-dots {
-    color: var(--secondary);
-    letter-spacing: 4px;
-    font-size: 14px;
+/* Estilos para los puntos de los idiomas */
+.lang-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #334155; /* Color apagado (fondo o inactivo) */
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
-.lang-dots .empty-dot {
-    color: var(--border-dark);
+.lang-dot.active {
+    background-color: #ffffff; /* Color brillante / iluminado (cámbialo por tu color de acento) */
+    box-shadow: 0 0 8px #ffffff; /* Efecto de iluminación glow */
 }
 
 /* --- Certificados --- */
@@ -536,6 +541,153 @@ body {
     font-weight: 500;
     border: 1px solid rgba(42, 125, 225, 0.15);
 }
+
+/* ================================================================
+   6.1 CERTIFICADOS CON IMÁGENES - FULL WIDTH GRID
+   ================================================================ */
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 6px;
+}
+
+.certificate-card {
+    background: var(--bg-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+
+.certificate-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+}
+
+.certificate-image {
+    position: relative;
+    overflow: hidden;
+    height: 220px;
+    background: var(--bg-light);
+}
+
+.certificate-image img {
+    width: 100%;
+    height: 100%;
+    transition: transform var(--transition);
+    background-color: var(--bg-light);  /* ← Fondo para espacios vacíos */
+}
+
+.certificate-card:hover .certificate-image img {
+    transform: scale(1.05);
+}
+
+.certificate-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(26, 42, 58, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity var(--transition);
+}
+
+.certificate-card:hover .certificate-overlay {
+    opacity: 1;
+}
+
+.certificate-link {
+    background: var(--secondary);
+    color: var(--text-white);
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    transition: background var(--transition), transform var(--transition);
+    transform: translateY(20px);
+}
+
+.certificate-card:hover .certificate-link {
+    transform: translateY(0);
+}
+
+.certificate-link:hover {
+    background: var(--accent);
+}
+
+.certificate-link i {
+    margin-right: 6px;
+}
+
+.certificate-info {
+    padding: 14px 16px 18px;
+}
+
+.certificate-badge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.cert-issuer-badge {
+    background: var(--bg-light);
+    color: var(--secondary);
+    padding: 2px 12px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid rgba(42, 125, 225, 0.15);
+}
+
+.cert-date {
+    font-size: 12px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.certificate-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    line-height: 1.3;
+}
+
+.certificate-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+
+/* ================================================================
+   6.2 RESPONSIVE PARA CERTIFICADOS
+   ================================================================ */
+
+@media (max-width: 768px) {
+    .certificates-grid {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .certificate-image {
+        height: 180px;
+    }
+}
+
 
 /* ================================================================
    7. FOOTER
