@@ -31,40 +31,40 @@ I am looking for a team where I can keep learning every day, contribute my curre
         { icon: "📞", label: "Phone", value: "+52 8124 06 22 92" }
     ],
 
-    // -------- HABILIDADES TÉCNICAS (level: 0-100) --------
-    skills: [
-        // --- Inteligencia Artificial y Agentes Autónomos ---
-        { name: "Python", level: 75 },          
-        { name: "LangChain", level: 50 },       
-        { name: "LangGraph", level: 55 },       
-        { name: "Hugging Face", level: 55 },    
-        { name: "Claude Code", level: 50 },     
+// -------- HABILIDADES TÉCNICAS (level: 0-100) --------
+skills: [
+    // --- Inteligencia Artificial y Agentes Autónomos ---
+    { name: "Python", level: 75 },          // Omnipresente en analítica, ML, pipelines y automatización de software[cite: 78, 79, 81, 85, 88].
+    { name: "LangChain", level: 50 },       // Core de la certificación de 10 cursos de IBM RAG y Agentic AI[cite: 81].
+    { name: "LangGraph", level: 55 },       // Orquestación avanzada de flujos agenticos cíclicos con memoria[cite: 81].
+    { name: "Hugging Face", level: 55 },    // Selección de modelos, fine-tuning y evaluación en la especialización de LLMs[cite: 87].
+    { name: "Claude Code", level: 50 },     // Automatización e ingeniería de software asistida por agentes autónomos[cite: 78].
 
-        // --- Ingeniería de Datos y Big Data ---
-        { name: "SQL", level: 70 },             
-        { name: "Apache Spark", level: 65 },    
-        { name: "Apache Hadoop", level: 60 },   
-        { name: "Data Pipelines", level: 65 },  
+    // --- Ingeniería de Datos y Big Data ---
+    { name: "SQL", level: 70 },             // Base absoluta para la gestión, extracción y manipulación de bases de datos relacionales.
+    { name: "Apache Spark", level: 65 },    // Procesamiento de datos distribuidos a gran escala en arquitecturas Big Data.
+    { name: "Apache Hadoop", level: 60 },   // Almacenamiento y procesamiento distribuido en ecosistemas de datos masivos.
+    { name: "Data Pipelines", level: 65 },  // Modelado y automatización de flujos de ingeniería de datos con DelftX[cite: 85].
 
-        // --- Ciencia de Datos, Estadística y Machine Learning ---
-        { name: "R Programming", level: 65 },   
-        { name: "SAS / Model Studio", level: 60 }, 
-        { name: "Scikit-Learn", level: 65 },    
-        { name: "Pandas / NumPy", level: 65 },   
+    // --- Ciencia de Datos, Estadística y Machine Learning ---
+    { name: "R Programming", level: 65 },   // Análisis estadístico avanzado, manipulación de datos y modelado matemático.
+    { name: "SAS / Model Studio", level: 60 }, // Plataforma empresarial para minería de datos y despliegue de modelos de ML.
+    { name: "Scikit-Learn", level: 65 },    // Algoritmos predictivos, regresión y clustering en Machine Learning con Python[cite: 88].
+    { name: "Pandas / NumPy", level: 65 },   // Manipulación, limpieza y análisis estadístico de datasets masivos[cite: 79].
 
-        // --- Desarrollo Full-Stack y Cloud-Native ---
-        { name: "Javascript", level: 60 },      
-        { name: "Node.js", level: 60 },         
-        { name: "Express", level: 55 },         
-        { name: "Docker", level: 55 },          
-        { name: "HTML / CSS", level: 60 },      
-        { name: "MongoDB", level: 50 },         
-        { name: "Kubernetes", level: 55 },      
+    // --- Desarrollo Full-Stack y Cloud-Native ---
+    { name: "Javascript", level: 60 },      // Base completa de la certificación backend de 13 cursos de IBM[cite: 82].
+    { name: "Node.js", level: 60 },         // Lógica del lado del servidor intensiva en la ruta backend de IBM[cite: 82].
+    { name: "Express", level: 55 },         // Framework utilizado para la creación de microservicios y REST APIs[cite: 82].
+    { name: "Docker", level: 55 },          // Contenerización y aislamiento de microservicios para despliegues nativos[cite: 82].
+    { name: "HTML / CSS", level: 60 },      // Desarrollo frontend semántico y estilizado web integrado[cite: 82].
+    { name: "MongoDB", level: 50 },         // Base de datos NoSQL principal integrada en tus proyectos web[cite: 82].
+    { name: "Kubernetes", level: 55 },      // Orquestación de contenedores y despliegues en clusters/OpenShift[cite: 82].
 
-        // --- Ciberseguridad Ofensiva ---
-        { name: "Kali Linux", level: 45 },      
-        { name: "Metasploit", level: 40 }       
-    ],
+    // --- Ciberseguridad Ofensiva ---
+    { name: "Kali Linux", level: 45 },      // Entorno y suite de herramientas para la especialización de hacking ético[cite: 83].
+    { name: "Metasploit", level: 40 }       // Explotación de vulnerabilidades y testing de penetración controlado[cite: 83].
+],
 
     // -------- IDIOMAS (level: 1-5) --------
     languages: [
@@ -72,14 +72,114 @@ I am looking for a team where I can keep learning every day, contribute my curre
         { name: "English", level: 4, label: "Fluent" }
     ],
 
-    // -------- HABILIDADES PERSONALES (SIDEBAR) --------
-    personalSkills: [
-        { name: "Continuous Learning", icon: "🧠" },
-        { name: "Problem Solving", icon: "🧩" },
-        { name: "Effective Communication", icon: "🗣️" },
-        { name: "Organization & Planning", icon: "📅" },
-        { name: "Adaptability & Resilience", icon: "🔄" },
-        { name: "Team Collaboration", icon: "🤝" }
+// -------- CERTIFICADOS ORGANIZADOS POR ÁREA --------
+certificates: [
+    // ============================================
+    // 1. INTELIGENCIA ARTIFICIAL & MACHINE LEARNING
+    // ============================================
+    { issuer: "Harvardx", name: "Data Science" },
+    { issuer: "Harvardx", name: "Python for Data Science" },
+    { issuer: "DeepLearning.AI", name: "Data Engineering" },
+    { issuer: "IBM", name: "Machine Learning" },
+    { issuer: "IBM", name: "Data Science" },
+    { issuer: "AWS", name: "Machine Learning" },
+    { issuer: "Google", name: "Machine Learning" },
+    { issuer: "DeepLearning.AI", name: "PyTorch Deep Learning" },
+    { issuer: "IBM", name: "AI Engineering" },
+    { issuer: "AWS", name: "Generative AI" },
+    { issuer: "IBM", name: "Generative AI Elevate Your Data Science Career" },
+    { issuer: "University of Colorado", name: "Machine Learning Theory and Hands-on Practice with Python" },
+    { issuer: "University of Alberta", name: "Applied Machine Learning" },
+    { issuer: "IBM", name: "AI and Data Engineering" },
+    { issuer: "IBM", name: "Deep Learning with PyTorch" },
+    { issuer: "IBM", name: "AI Mastery for Professionals" },
+    { issuer: "Microsoft", name: "AI & ML Engineering" },
+    { issuer: "NVIDIA", name: "Generative AI" },
+    { issuer: "Snowflake", name: "Generative AI" },
+    { issuer: "DeepLearning.AI", name: "AI Tooling" },
+    { issuer: "DeepLearning.AI", name: "Generative AI for Mobile" },
+    { issuer: "DeepLearning.AI", name: "Generative AI Engineering" },
+    { issuer: "DeepLearning.AI", name: "TensorFlow Developer" },
+    { issuer: "DeepLearning.AI", name: "Computer Vision" },
+    { issuer: "DeepLearning.AI", name: "Generative AI Software Engineering" },
+    { issuer: "DeepLearning.AI", name: "Generative AI Leadership & Strategy" },
+    { issuer: "DeepLearning.AI", name: "Harnessing LLMs" },
+    { issuer: "IBM", name: "Machine Learning with Python" },
+    { issuer: "IBM", name: "RAG and Agentic AI" },
+    { issuer: "AWS", name: "Generative AI and AI" },
+    { issuer: "DeepLearning.AI", name: "Data Analytics" },
+
+    // ============================================
+    // 2. DATA ENGINEERING & ANALYTICS
+    // ============================================
+    { issuer: "IBM", name: "Python for Data Engineering" },
+    { issuer: "IBM", name: "Data Analytics" },
+    { issuer: "IBM", name: "Data Pipeline Engineering & Analytics" },
+    { issuer: "IBM", name: "Data Engineer" },
+    { issuer: "IBM", name: "Data Architecture" },
+    { issuer: "IBM", name: "Data Visualization with Python" },
+    { issuer: "IBM", name: "Data Analysis with Python" },
+    { issuer: "IBM", name: "Applied Data Science Capstone" },
+    { issuer: "IBM", name: "Data Science Methodology" },
+    { issuer: "IBM", name: "Data Analyst" },
+    { issuer: "IBM", name: "Databases and SQL for Data Science with Python" },
+    { issuer: "IBM", name: "Relational Database" },
+    { issuer: "Google", name: "Data Analytics" },
+    { issuer: "Google", name: "Business Intelligence" },
+    { issuer: "Google", name: "Business Intelligence Certificate" },
+    { issuer: "AWS", name: "Cloud Support" },
+    { issuer: "Snowflake", name: "Data Engineering" },
+    { issuer: "Microsoft", name: "Power BI Data Analyst" },
+    { issuer: "Microsoft", name: "Data Analysis with SQL Excel & Power BI" },
+    { issuer: "Microsoft", name: "Power BI Productivity" },
+    { issuer: "Johns Hopkins University", name: "R Programming for Data" },
+    { issuer: "UiPath", name: "RPA" },
+
+    // ============================================
+    // 3. FULL-STACK & SOFTWARE DEVELOPMENT
+    // ============================================
+    { issuer: "IBM", name: "iOS and Android" },
+    { issuer: "IBM", name: "Full Stack Software" },
+    { issuer: "IBM", name: "Back-End" },
+    { issuer: "IBM", name: "JavaScript Backend" },
+    { issuer: "IBM", name: "DevOps and Software" },
+    { issuer: "IBM", name: "Applied DevOps" },
+    { issuer: "Meta", name: "React" },
+    { issuer: "Instituto Tecnológico de Aeronáutica", name: "Mastering ROS 2 for Robotics Programming" },
+    { issuer: "Google", name: "IT Support" },
+    { issuer: "AWS", name: "Cloud Solutions" },
+    { issuer: "AWS", name: "Cloud Technology Consultant" },
+
+    // ============================================
+    // 4. CYBERSECURITY & ETHICAL HACKING
+    // ============================================
+    { issuer: "ISC2", name: "Systems Security" },
+    { issuer: "ISC2", name: "Certified in Cybersecurity" },
+    { issuer: "EC-Council", name: "Digital Forensics Essentials (DFE)" },
+    { issuer: "EC-Council", name: "Practical Pentesting" },
+    { issuer: "EC-Council", name: "Offensive Hacking Unfolded" },
+    { issuer: "EC-Council", name: "Hands-on Hacking" },
+    { issuer: "EC-Council", name: "Hacking Bootcamp" },
+    { issuer: "EC-Council", name: "Certified Ethical Hacker" },
+    { issuer: "EC-Council", name: "Cybersecurity Attack" },
+    { issuer: "EC-Council", name: "Network Defense Essentials (NDE)" },
+    { issuer: "EC-Council", name: "Kali Linux Ethical Hacking" },
+    { issuer: "CompTIA", name: "Cybersecurity Analyst (CySA+) CS0-003" },
+    { issuer: "CompTIA", name: "PenTest+" },
+    { issuer: "Cloud Security Alliance", name: "Certified Cloud Security" },
+    { issuer: "IBM", name: "Python Hacking Apply, Implement & Analyze" },
+
+    // ============================================
+    // 5. BUSINESS & MANAGEMENT
+    // ============================================
+    { issuer: "PMI", name: "PMP Certification" },
+    { issuer: "SAP", name: "Business Analyst" },
+
+    // ============================================
+    // 6. LANGUAGES & OTHER SKILLS
+    // ============================================
+    { issuer: "HSK", name: "Chinese for HSK 1" },
+    { issuer: "Microsoft", name: "Azure Data Science" }
     ],
 
     // -------- EXPERIENCIA LABORAL --------
@@ -91,6 +191,7 @@ I am looking for a team where I can keep learning every day, contribute my curre
             location: "Edo Méx, México",
             duration: "2 YEARS",
             description: `- Built digital applications for task automation.
+
 - Developed computer vision systems for real-time object counting (Python, detection models).
 - Optimized workflows with custom scripts (Java, Python, SQL), reducing processing times.
 - Applied OOP and relational database design for large-scale data management.
@@ -139,35 +240,7 @@ I am looking for a team where I can keep learning every day, contribute my curre
         }
     ],
 
-    // -------- EDUCACIÓN --------
-    education: [
-        {
-            year: "2022-2026",
-            title: "Software Engineer",
-            institution: "Universidad Ciudadana de Nuevo Leon (UCNL)",
-            location: "Nuevo Leon, Mexico",
-            duration: "4 YEARS",
-            description: `Software Engineering.`
-        },
-        {
-            year: "2020-2022",
-            title: "Master of Business Administration",
-            institution: "Uniersidad Tecnologica de Latinoamerica (UTEL)",
-            location: "Mexico city, Mexico",
-            duration: "2 YEARS",
-            description: `Master of Business Administration.`
-        },
-        {
-            year: "2005-2010",
-            title: "Civil Engineer",
-            institution: "Universidad Autónoma de Nuevo León (UANL)",
-            location: "Nuevo Leon, Mexico",
-            duration: "5 YEARS",
-            description: `Civil Engineering.`
-        }
-    ],
-
-    // -------- PROYECTOS --------
+    // -------- PROYECTOS (NUEVA SECCIÓN) --------
     projects: [
         {
             title: "Dynamic Engineering App",
@@ -203,126 +276,34 @@ I am looking for a team where I can keep learning every day, contribute my curre
             image: "project5.jpg",
             technologies: ["Python", "R studio", "Apache"],
             link: "https://github.com/tu-usuario/landing"
-        }
+        },
     ],
 
-    // -------- EXPERIENCIA ADICIONAL CON IMÁGENES --------
-    additionalExperience: [
+    // -------- EDUCACIÓN --------
+    education: [
         {
-            title: "Sistema de Visión por Computadora para Conteo en Tiempo Real",
-            description: "Desarrollo de un sistema automatizado utilizando Python, YOLO y OpenCV para conteo de objetos en líneas de producción, reduciendo errores manuales en un 95%.",
-            image: "experience/computer-vision.jpg",
-            issuer: "Freelance",
-            date: "2024",
-            link: "https://github.com/sky-cyborgnet/computer-vision"
+            year: "2005-2010",
+            title: "Civil Engineer",
+            institution: "Universidad Autonoma de Nuevo Leon (UANL)",
+            location: "Nuevo Leon, Mexico",
+            duration: "5 YEARS",
+            description: `Civil Engineering.`
         },
         {
-            title: "Automatización de Pipelines de Datos en SAP S/4 HANA",
-            description: "Implementación de pipelines ETL con Python y SQL para extracción, limpieza y consolidación de datos operativos, reduciendo tiempos de procesamiento en un 70%.",
-            image: "experience/data-pipeline.jpg",
-            issuer: "Constellation Brands (Worley)",
-            date: "2021",
-            link: "https://github.com/sky-cyborgnet/data-pipeline"
+            year: "2020-2022",
+            title: "Master of Business Administration",
+            institution: "Uniersidad Tecnologica de Latinoamerica (UTEL)",
+            location: "Mexico city, Mexico",
+            duration: "2 YEARS",
+            description: `Master of Business Administration.`
         },
         {
-            title: "Optimización de Costos con Machine Learning en Construcción",
-            description: "Modelo predictivo de costos utilizando regresión lineal y clustering para estimación de presupuestos en proyectos de construcción con precisión del 92%.",
-            image: "experience/cost-optimization.jpg",
-            issuer: "VITRO",
-            date: "2018",
-            link: "https://github.com/sky-cyborgnet/cost-prediction"
-        },
-        {
-            title: "Aplicación Web para Diseño de Cargas de Viento (CFE)",
-            description: "Aplicación interactiva que automatiza cálculos de cargas de viento según normativa CFE, eliminando errores de tablas manuales y reduciendo tiempo de diseño en un 80%.",
-            image: "experience/wind-loads.jpg",
-            issuer: "Proyecto Personal",
-            date: "2023",
-            link: "https://github.com/sky-cyborgnet/wind-loads-cfe"
-        }
-    ],
-
-    // -------- CERTIFICADOS CON IMÁGENES --------
-    certificateImages: [
-        {
-            title: "Google - Data Analytics Professional",
-            description: "Professional certification from Google focused on data processing, analysis, and data visualization to drive strategic decision-making.",
-            image: "certificates/GoogleDataAnalitycs.png.jpg",
-            issuer: "Google",
-            date: "2024",
-            link: "https://grow.google/..."
-        },
-        {
-            title: "IBM - Data Architecture Professional",
-            description: "Professional certification in Data Architecture by IBM, covering data modeling design, governance, enterprise data storage, and information lifecycle management.",
-            image: "certificates/IBM Data Architecture.png.jpg",
-            issuer: "IBM",
-            date: "2024",
-            link: "https://www.credly.com/..."
-        },
-        {
-            title: "IBM - Data Engineering Professional",
-            description: "Professional program focused on data engineering with IBM, encompassing relational and NoSQL databases, ETL/ELT pipelines, and Big Data architectures.",
-            image: "certificates/IBM Data Engineering.jpg",
-            issuer: "IBM",
-            date: "2024",
-            link: "https://www.credly.com/..."
-        },
-        {
-            title: "IBM - RAG and Agentic AI",
-            description: "Advanced specialization in Generative Artificial Intelligence, centering on the development of Retrieval-Augmented Generation (RAG) systems and autonomous AI Agents.",
-            image: "certificates/IBM RAG and Agentic AI.jpg",
-            issuer: "IBM",
-            date: "2024",
-            link: "https://www.credly.com/..."
-        },
-        {
-            title: "IBM - AI Engineering Professional",
-            description: "Professional certification in AI Engineering from IBM, validating core skills in Machine Learning, Deep Learning, neural networks, and model deployment to production.",
-            image: "certificates/IBM-AI-Engineering.png.jpg",
-            issuer: "IBM",
-            date: "2024",
-            link: "https://www.credly.com/..."
-        },
-        {
-            title: "ISC2 - Certified in Cybersecurity (CC)",
-            description: "Foundational global cybersecurity credential, validating proficiency in security principles, business continuity, network concepts, and security operations.",
-            image: "certificates/ISC2-CertifiedCybersecurity.png.jpg",
-            issuer: "ISC2",
-            date: "2023",
-            link: "https://www.isc2.org/..."
-        },
-        {
-            title: "ISC2 - Systems Security Certified Practitioner (SSCP)",
-            description: "Advanced operational security certification, focused on implementing, monitoring, and administering IT infrastructure in accordance with security policies.",
-            image: "certificates/ISC2SYSTEMSSECURITY.PNG",
-            issuer: "ISC2",
-            date: "2023",
-            link: "https://www.isc2.org/..."
-        },
-        {
-            title: "Microsoft - Power BI Data Analyst Professional",
-            description: "Official certification in Data Analysis with Microsoft Power BI, covering data modeling, building dynamic dashboards, and publishing enterprise-level reports.",
-            image: "certificates/Microsoft Power BI Data Analyst.jpg",
-            issuer: "Microsoft",
-            date: "2024",
-            link: "https://learn.microsoft.com/..."
-        },
-        {
-            title: "PyTorch for Deep Learning",
-            description: "Hands-on specialization in building deep learning architectures using the PyTorch framework, including convolutional neural networks (CNNs) and computer vision.",
-            image: "certificates/PytTorchfordeeplearning.png",
-            issuer: "PyTorch",
-            date: "2024",
-            link: "https://pytorch.org/..."
-        },
-        {
-            title: "Stanford - Machine Learning",
-            description: "Academic Machine Learning certification by Stanford University, covering key algorithms for supervised and unsupervised learning, optimization, and industry best practices.",
-            image: "certificates/Stanford Machine Learning.jpg",
-            issuer: "Stanford University",
-            date: "2023",
-            link: "https://www.coursera.org/..."
+            year: "2022-2026",
+            title: "Software Engineer",
+            institution: "Universidad Ciudadana de Nuevo Leon (UCNL)",
+            location: "Nuevo Leon, Mexico",
+            duration: "4 YEARS",
+            description: `Software Engineering.`
         }
     ],
 
@@ -340,7 +321,11 @@ I am looking for a team where I can keep learning every day, contribute my curre
 //    Cada función inyecta los datos en el DOM.
 // ================================================================
 
+/**
+ * Renderiza el HTML completo de la página
+ */
 function renderCV() {
+    // --- Renderizar el contenedor principal ---
     const app = document.getElementById('app');
     if (!app) return;
 
@@ -348,7 +333,7 @@ function renderCV() {
         <!-- ========== CONTENEDOR PRINCIPAL ========== -->
         <div class="cv-container">
 
-            <!-- ========== SIDEBAR (Acomodado según orden visual deseado) ========== -->
+            <!-- ========== SIDEBAR ========== -->
             <aside class="sidebar">
                 <!-- Foto de perfil -->
                 <div class="profile-box">
@@ -362,10 +347,10 @@ function renderCV() {
                     <div id="contact-container"></div>
                 </div>
 
-                <!-- Habilidades Personales (Subió aquí) -->
+                <!-- Habilidades técnicas -->
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Personal Skills</h3>
-                    <div id="personal-skills-container"></div>
+                    <h3 class="sidebar-title">Tech Skills</h3>
+                    <div id="skills-container"></div>
                 </div>
 
                 <!-- Idiomas -->
@@ -374,10 +359,10 @@ function renderCV() {
                     <div id="languages-container"></div>
                 </div>
 
-                <!-- Habilidades técnicas (Bajó al final) -->
+                <!-- Certificados -->
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Tech Skills</h3>
-                    <div id="skills-container"></div>
+                    <h3 class="sidebar-title">Certificates</h3>
+                    <div id="certificates-container"></div>
                 </div>
             </aside>
 
@@ -389,7 +374,7 @@ function renderCV() {
                     <h2 id="profile-role">${CV_DATA.profile.role}</h2>
                 </div>
 
-                <!-- Resumen -->
+                <!-- Resumen / "Let's build together!" -->
                 <div class="summary" id="summary-container">
                     ${CV_DATA.profile.summary}
                 </div>
@@ -404,18 +389,6 @@ function renderCV() {
                 <section class="section">
                     <h3 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h3>
                     <div id="education-container"></div>
-                </section>
-
-                <!-- Additional Experience -->
-                <section class="section">
-                    <h3 class="section-title"><i class="fas fa-star"></i> Additional Experience</h3>
-                    <div id="additional-experience-container" class="certificates-grid"></div>
-                </section>
-
-                <!-- Certificados (con imágenes) -->
-                <section class="section">
-                    <h3 class="section-title"><i class="fas fa-award"></i> Certificates</h3>
-                    <div id="certificates-images-container" class="certificates-grid"></div>
                 </section>
 
                 <!-- Proyectos -->
@@ -437,12 +410,10 @@ function renderCV() {
 
     // --- Renderizar cada sección ---
     renderContact();
-    renderLanguages();
-    renderPersonalSkills(); 
     renderSkills();
+    renderLanguages();
+    renderCertificates();
     renderExperience();
-    renderCertificateImages();
-    renderAdditionalExperience();  
     renderProjects();
     renderEducation();
     renderSocial();
@@ -468,7 +439,7 @@ function renderContact() {
     `).join('');
 }
 
-// --- Renderizar Habilidades Técnicas (barras) ---
+// --- Renderizar Habilidades (barras) ---
 function renderSkills() {
     const container = document.getElementById('skills-container');
     if (!container) return;
@@ -486,46 +457,35 @@ function renderSkills() {
     `).join('');
 }
 
-// --- Renderizar Idiomas (Con puntos de nivel iluminados) ---
+// --- Renderizar Idiomas (puntos) ---
 function renderLanguages() {
     const container = document.getElementById('languages-container');
     if (!container) return;
 
     container.innerHTML = CV_DATA.languages.map(lang => {
-        // Genera 5 puntos en total. Si el nivel es 4, pinta 4 activos y 1 inactivo.
-        let dotsHTML = '';
+        let dots = '';
         for (let i = 1; i <= 5; i++) {
-            if (i <= lang.level) {
-                dotsHTML += `<span class="lang-dot active"></span>`;
-            } else {
-                dotsHTML += `<span class="lang-dot"></span>`;
-            }
+            dots += i <= lang.level ? '●' : '<span class="empty-dot">●</span>';
         }
-
         return `
-            <div class="lang-item" style="margin-bottom: 15px;">
-                <div class="lang-info" style="display: flex; justify-content: space-between; margin-bottom: 5px;">
-                    <strong class="lang-name">${lang.name}</strong>
-                    <span class="lang-label" style="font-size: 0.85em; opacity: 0.8;">${lang.label}</span>
-                </div>
-                <div class="lang-dots" style="display: flex; gap: 6px;">
-                    ${dotsHTML}
-                </div>
+            <div class="lang-item">
+                <span class="lang-name">${lang.name}</span>
+                <span class="lang-level">${lang.label}</span>
+                <div class="lang-dots">${dots}</div>
             </div>
         `;
     }).join('');
 }
 
-
-// --- Renderizar Habilidades Personales ---
-function renderPersonalSkills() {
-    const container = document.getElementById('personal-skills-container');
+// --- Renderizar Certificados ---
+function renderCertificates() {
+    const container = document.getElementById('certificates-container');
     if (!container) return;
 
-    container.innerHTML = CV_DATA.personalSkills.map(skill => `
-        <div class="info-item">
-            <span class="icon">${skill.icon}</span>
-            <span>${skill.name}</span>
+    container.innerHTML = CV_DATA.certificates.map(cert => `
+        <div class="cert-item">
+            <span class="cert-issuer">${cert.issuer}</span>
+            <span class="cert-name">${cert.name}</span>
         </div>
     `).join('');
 }
@@ -543,30 +503,12 @@ function renderExperience() {
                 <span class="timeline-location">${exp.location}</span>
             </div>
             <div class="timeline-company">${exp.company} · ${exp.duration}</div>
-            <div class="timeline-desc" style="white-space: pre-line;">${exp.description}</div>
+            <div class="timeline-desc">${exp.description}</div>
         </div>
     `).join('');
 }
 
-// --- Renderizar Educación ---
-function renderEducation() {
-    const container = document.getElementById('education-container');
-    if (!container) return;
-
-    container.innerHTML = CV_DATA.education.map(edu => `
-        <div class="timeline-item">
-            <div class="timeline-meta">
-                <span class="timeline-year">${edu.year}</span>
-                <span class="timeline-role">${edu.title}</span>
-                <span class="timeline-location">${edu.location}</span>
-            </div>
-            <div class="timeline-company">${edu.institution} · ${edu.duration}</div>
-            <div class="timeline-desc">${edu.description}</div>
-        </div>
-    `).join('');
-}
-
-// --- Renderizar Proyectos ---
+// --- Renderizar Proyectos (con imágenes) ---
 function renderProjects() {
     const container = document.getElementById('projects-container');
     if (!container) return;
@@ -592,61 +534,25 @@ function renderProjects() {
     `).join('');
 }
 
-// --- Renderizar Experiencia Adicional con Imágenes ---
-function renderAdditionalExperience() {
-    const container = document.getElementById('additional-experience-container');
+// --- Renderizar Educación ---
+function renderEducation() {
+    const container = document.getElementById('education-container');
     if (!container) return;
 
-    container.innerHTML = CV_DATA.additionalExperience.map(item => `
-        <div class="certificate-card">
-            <div class="certificate-image">
-                <img src="${item.image}" alt="${item.title}" loading="lazy">
-                <div class="certificate-overlay">
-                    <a href="${item.link}" target="_blank" class="certificate-link">
-                        <i class="fas fa-external-link-alt"></i> View
-                    </a>
-                </div>
+    container.innerHTML = CV_DATA.education.map(edu => `
+        <div class="timeline-item">
+            <div class="timeline-meta">
+                <span class="timeline-year">${edu.year}</span>
+                <span class="timeline-role">${edu.title}</span>
+                <span class="timeline-location">${edu.location}</span>
             </div>
-            <div class="certificate-info">
-                <div class="certificate-badge">
-                    <span class="cert-issuer-badge">${item.issuer}</span>
-                    <span class="cert-date">${item.date}</span>
-                </div>
-                <h3 class="certificate-title">${item.title}</h3>
-                <p class="certificate-desc">${item.description}</p>
-            </div>
+            <div class="timeline-company">${edu.institution} · ${edu.duration}</div>
+            <div class="timeline-desc">${edu.description}</div>
         </div>
     `).join('');
 }
 
-// --- Renderizar Certificados con Imágenes ---
-function renderCertificateImages() {
-    const container = document.getElementById('certificates-images-container');
-    if (!container) return;
-
-    container.innerHTML = CV_DATA.certificateImages.map(cert => `
-        <div class="certificate-card">
-            <div class="certificate-image">
-                <img src="${cert.image}" alt="${cert.title}" loading="lazy">
-                <div class="certificate-overlay">
-                    <a href="${cert.link}" target="_blank" class="certificate-link">
-                        <i class="fas fa-external-link-alt"></i> View
-                    </a>
-                </div>
-            </div>
-            <div class="certificate-info">
-                <div class="certificate-badge">
-                    <span class="cert-issuer-badge">${cert.issuer}</span>
-                    <span class="cert-date">${cert.date}</span>
-                </div>
-                <h3 class="certificate-title">${cert.title}</h3>
-                <p class="certificate-desc">${cert.description}</p>
-            </div>
-        </div>
-    `).join('');
-}
-
-// --- Renderizar Redes Sociales ---
+// --- Renderizar Redes Sociales (Footer) ---
 function renderSocial() {
     const container = document.getElementById('social-container');
     if (!container) return;
@@ -662,16 +568,185 @@ function renderSocial() {
 // 3. ANIMACIONES Y EFECTOS
 // ================================================================
 
+/**
+ * Anima las barras de habilidades al hacer scroll
+ * Usa Intersection Observer para mejor rendimiento
+ */
 function animateSkills() {
-    console.log("Animando barras de habilidades...");
-    // Aquí puedes añadir lógica de Intersection Observer si lo usas
+    const skillBars = document.querySelectorAll('.skill-progress');
+    
+    // Si no hay barras, salir
+    if (!skillBars.length) return;
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const bar = entry.target;
+                // Guardar el ancho objetivo
+                const targetWidth = bar.style.width;
+                // Resetear a 0
+                bar.style.width = '0%';
+                // Forzar reflow para reiniciar animación
+                void bar.offsetWidth;
+                // Animar al ancho objetivo
+                setTimeout(() => {
+                    bar.style.width = targetWidth;
+                }, 50);
+                // Dejar de observar esta barra
+                observer.unobserve(bar);
+            }
+        });
+    }, { 
+        threshold: 0.3,
+        rootMargin: '0px 0px -50px 0px'
+    });
+
+    skillBars.forEach(bar => observer.observe(bar));
 }
 
+/**
+ * Efecto de escritura en el tagline
+ * Escribe el texto carácter por carácter
+ */
 function typeWriterEffect() {
-    console.log("Efecto de máquina de escribir iniciado...");
+    const tagline = document.querySelector('.tagline');
+    if (!tagline) return;
+
+    const originalText = tagline.textContent;
+    tagline.textContent = '';
+    let charIndex = 0;
+
+    function typeWriter() {
+        if (charIndex < originalText.length) {
+            tagline.textContent += originalText.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeWriter, 80);
+        }
+    }
+
+    typeWriter();
 }
 
-// Ejecución inicial para pintar la vista
-document.addEventListener("DOMContentLoaded", () => {
+/**
+ * Detecta si el sidebar está en vista móvil y ajusta el scroll
+ */
+function handleMobileSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    if (!sidebar) return;
+
+    const isMobile = window.innerWidth <= 768;
+    if (isMobile) {
+        sidebar.style.position = 'relative';
+        sidebar.style.height = 'auto';
+        sidebar.style.overflow = 'visible';
+    } else {
+        sidebar.style.position = 'sticky';
+        sidebar.style.height = '100vh';
+        sidebar.style.overflow = 'auto';
+    }
+}
+
+// ================================================================
+// 4. FUNCIONES DE UTILIDAD (Opcionales)
+// ================================================================
+
+/**
+ * Actualiza los datos y re-renderiza todo
+ * Útil para actualizaciones dinámicas
+ */
+function updateCV(newData) {
+    Object.assign(CV_DATA, newData);
     renderCV();
+}
+
+/**
+ * Exporta los datos actuales a JSON
+ */
+function exportCVData() {
+    const json = JSON.stringify(CV_DATA, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'cv-data.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+/**
+ * Importa datos desde JSON
+ */
+function importCVData(jsonString) {
+    try {
+        const data = JSON.parse(jsonString);
+        Object.assign(CV_DATA, data);
+        renderCV();
+        return true;
+    } catch (error) {
+        console.error('Error al importar datos:', error);
+        return false;
+    }
+}
+
+// ================================================================
+// 5. INICIALIZACIÓN Y EVENTOS
+// ================================================================
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Renderizar el CV
+    renderCV();
+    
+    // Manejar cambios de tamaño de ventana para el sidebar
+    handleMobileSidebar();
+    window.addEventListener('resize', handleMobileSidebar);
+    
+    // Mensaje de bienvenida en consola
+    console.log('%c🚀 CV Full Width cargado correctamente', 'font-size: 16px; font-weight: bold; color: #2A7DE1;');
+    console.log('%c📝 Modifica los datos en CV_DATA para actualizar el contenido', 'font-size: 12px; color: #4A5C72;');
+    console.log('%c🔧 Funciones disponibles: updateCV(), exportCVData(), importCVData()', 'font-size: 12px; color: #4A5C72;');
+    
+    // Exponer funciones globalmente para debugging
+    window.CV = {
+        data: CV_DATA,
+        update: updateCV,
+        export: exportCVData,
+        import: importCVData,
+        render: renderCV
+    };
 });
+
+// ================================================================
+// 6. MANEJO DE ERRORES DE IMÁGENES (Fallback)
+// ================================================================
+
+/**
+ * Maneja errores de carga de imágenes
+ * Muestra placeholders si la imagen no existe
+ */
+document.addEventListener('error', function(e) {
+    const target = e.target;
+    if (target.tagName === 'IMG') {
+        // Si es la foto de perfil
+        if (target.id === 'profile-img') {
+            target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"%3E%3Crect width="200" height="200" fill="%231e2a3a"/%3E%3Ctext x="50%25" y="50%25" font-size="60" text-anchor="middle" dy=".3em" fill="%235b8cbf"%3E👤%3C/text%3E%3C/svg%3E';
+            target.alt = 'Foto de perfil no disponible';
+        } else {
+            // Para proyectos, mostrar placeholder
+            const parent = target.closest('.project-image');
+            if (parent) {
+                parent.style.backgroundColor = '#e9edf2';
+                parent.style.display = 'flex';
+                parent.style.alignItems = 'center';
+                parent.style.justifyContent = 'center';
+                parent.innerHTML = `
+                    <div style="color: #8899b0; font-size: 14px; text-align: center; padding: 20px;">
+                        <i class="fas fa-image" style="font-size: 32px; display: block; margin-bottom: 8px;"></i>
+                        Imagen no disponible
+                    </div>
+                `;
+            }
+        }
+    }
+}, true);
